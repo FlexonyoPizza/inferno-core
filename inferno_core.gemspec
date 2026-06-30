@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'dry-core', '1.0.0'
   spec.add_dependency 'dry-inflector', '1.0.0'
   spec.add_dependency 'dry-system', '1.0.0'
-  spec.add_dependency 'faraday', '~> 1.10.5'
+  spec.add_dependency 'faraday', '>= 1.10.5', '< 2.15.0'
   spec.add_dependency 'faraday_middleware', '~> 1.2'
   spec.add_dependency 'fhir_client', '>= 6.2.0'
   spec.add_dependency 'fhir_models', '>= 5.1.0'
